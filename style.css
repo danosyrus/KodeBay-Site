@@ -1,0 +1,62 @@
+:root{
+    --grey: #1e2124;
+    --blue: cornflowerblue;
+    --light-blue: #2980b9;
+    --green: #57F287;
+    --yellow: #FEE75C;
+    --red: #ED4245;
+}
+
+body, html{
+    font-family: 'Lexend Deca';
+    background-color: var(--grey);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    height: 100%;
+    background-color:var(--blue);
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.active{
+    background-color: var(--green);
+}
+
+.article {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: var(--blue); 
+    color: white; 
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    background-color: var(--light-blue); 
+    color: white;
+}
+
+footer.footer {
+    background-color:var(--blue);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
